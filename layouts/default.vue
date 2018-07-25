@@ -6,7 +6,7 @@
                     <img v-bind:src="logoSized" alt="" />
                 </a>
                 <ul class="uk-navbar-nav">
-                    <li>
+                    <!-- <li>
                         <a href="#">
                             Features
                         </a>
@@ -25,17 +25,11 @@
                         <a href="#">
                             AAAAssss
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </nav>
-        <div class="uk-cover-container">
-             <canvas width="400" height="350"></canvas>
-            <img :src="immagine_testata" alt="" uk-cover>
-            <div class="uk-overlay uk-overlay-default uk-position-center">
-                <h1 class="uk-heading-primary">Top</h1>
-            </div>
-        </div>
+
         <nuxt/>
 
     </section>
@@ -44,17 +38,12 @@
 </template>
 
 <script>
-function resize(image, option) {
-  var imageService = '//img2.storyblok.com/'
-  var path = image.replace('//a.storyblok.com', '')
-  return imageService + option + path
-}
+import {resize} from '~/tools/manageImages.js'
 
 export default {
     data: function () {
         return {
             logo: this.$store.getters.getLogoUrl,
-            immagine_testata: this.$store.getters.immagineTestata
         }
     },
     computed: {

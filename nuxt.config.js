@@ -10,7 +10,8 @@ module.exports = {
             { hid: 'description', name: 'description', content: 'Nuxt.js project' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700' },
         ]
     },
     /*
@@ -31,7 +32,9 @@ module.exports = {
         {src: '~/assets/scss/main.scss', lang: 'scss'}
     ],
     plugins: [
-        { src: '~/plugins/uikit.js', ssr: false }
+        { src: '~/plugins/uikit.js', ssr: false },
+        { src: '~/plugins/iubenda.js', ssr: false },
+
     ],
     router: {
         middleware: ['getSettings']
