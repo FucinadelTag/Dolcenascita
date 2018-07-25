@@ -2,8 +2,9 @@
     <section>
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
             <div class="uk-navbar-left">
-                <a class="uk-navbar-item uk-logo" href="#">
-                    <img v-bind:src="logoSized" alt="" />
+                <a class="uk-navbar-item uk-logo uk-text-bold" href="#">
+                    <!-- <img v-bind:src="logoSized" alt="" /> -->
+                    Dolcenascita.it
                 </a>
                 <ul class="uk-navbar-nav">
                     <!-- <li>

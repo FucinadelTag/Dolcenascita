@@ -210,8 +210,7 @@
                         </p>
                         <span class="uk-text-bold">Dolcenascita.it</span><br>è un progetto di <i>Script Media Group Ltd</i>
                         <p>
-                            <br> 90 Leinster Road
-                            <br>Rathmines Dublin 6
+                            90 Leinster Road - Rathmines Dublin 6
                             <br>Vat IE​3458266BH
                         </p>
 
