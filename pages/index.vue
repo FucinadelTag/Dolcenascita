@@ -10,10 +10,10 @@
         </div>
         <div class="uk-section uk-section-default uk-padding">
             <div class="uk-container">
+                <hr>
                 <div class="uk-grid uk-grid-match uk-child-width-expand@s uk-grid-divider" uk-grid>
                     <div>
                         <h2 class="uk-h3 uk-text-bold">Prima del PARTO</h2>
-                        <hr>
                         <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
@@ -32,7 +32,6 @@
                     </div>
                     <div>
                         <h2 class="uk-h3 uk-text-bold">Durante il PARTO</h2>
-                        <hr>
                         <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
                         <dl class="uk-description-list">
@@ -50,7 +49,6 @@
                     </div>
                     <div>
                         <h2 class="uk-h3 uk-text-bold">Dopo il PARTO</h2>
-                        <hr>
                         <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
                         <dl class="uk-description-list">
