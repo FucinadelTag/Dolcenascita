@@ -14,7 +14,7 @@
                 <div class="uk-grid uk-grid-match uk-child-width-expand@s uk-grid-divider" uk-grid>
                     <div>
                         <h2 class="uk-h3 uk-text-bold">Prima del PARTO</h2>
-                        <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
+                        <img class="" :data-src="imageResize('/f/46475/1600x1027/8994c5caf0/prima-del-parto.jpg', '350x0')" alt="Doula" uk-img/>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
                         <dl class="uk-description-list">
@@ -32,7 +32,7 @@
                     </div>
                     <div>
                         <h2 class="uk-h3 uk-text-bold">Durante il PARTO</h2>
-                        <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
+                        <img class="" :data-src="imageResize('/f/46475/2121x1414/48e3e9d795/durante-in-parto.jpg', '350x0')" alt="Doula" uk-img/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
                         <dl class="uk-description-list">
                             <dt>Ti accompagna</dt>
@@ -49,7 +49,7 @@
                     </div>
                     <div>
                         <h2 class="uk-h3 uk-text-bold">Dopo il PARTO</h2>
-                        <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
+                        <img class="" :data-src="imageResize('/f/46475/1688x1125/114ae32fce/dopo-il-parto1.jpg', '350x0')" alt="Doula" uk-img/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
                         <dl class="uk-description-list">
                             <dt>Allattamento al seno</dt>
@@ -87,7 +87,7 @@
 
                         </div>
                         <div>
-                            <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '600x0')" alt="Doula" uk-img />
+                            <img class="" :data-src="imageResize('/f/46475/848x565/34b0af0548/prima-del-parto1.jpg', '600x0')" alt="Doula" uk-img />
                         </div>
                     </div>
             </div>
