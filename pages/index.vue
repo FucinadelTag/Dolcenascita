@@ -1,8 +1,8 @@
 <template>
     <section class="home">
         <div class="uk-cover-container">
-            <canvas width="400" height="350"></canvas>
-            <img :src="immagine_testata" alt="" uk-cover>
+            <canvas width="500" height="500"></canvas>
+            <img :src="imageResize(immagine_testata, '1500x500')" alt="" uk-cover>
             <div class="uk-overlay uk-overlay-default uk-position-center">
                 <h2 class="uk-h2 uk-text-center">Stai per diventare mamma o lo sei appena diventata?</h2>
                 <h1 class="uk-heading-primary  uk-text-center">Una <span class="uk-text-bold text-rosso">Doula</span> può aiutarti</h1>
@@ -14,7 +14,7 @@
                 <div class="uk-grid uk-grid-match uk-child-width-expand@s uk-grid-divider" uk-grid>
                     <div>
                         <h2 class="uk-h3 uk-text-bold">Prima del PARTO</h2>
-                        <img class="" :data-src="imageResize('/f/46475/1600x1027/8994c5caf0/prima-del-parto.jpg', '350x0')" alt="Doula" uk-img/>
+                        <img class="" :data-src="imageResize('/f/46475/1600x1027/8994c5caf0/prima-del-parto.jpg', '340x0')" alt="Doula" uk-img/>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
                         <dl class="uk-description-list">
@@ -32,7 +32,7 @@
                     </div>
                     <div>
                         <h2 class="uk-h3 uk-text-bold">Durante il PARTO</h2>
-                        <img class="" :data-src="imageResize('/f/46475/2121x1414/48e3e9d795/durante-in-parto.jpg', '350x0')" alt="Doula" uk-img/>
+                        <img class="" :data-src="imageResize('/f/46475/2121x1414/48e3e9d795/durante-in-parto.jpg', '340x0')" alt="Doula" uk-img/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
                         <dl class="uk-description-list">
                             <dt>Ti accompagna</dt>
@@ -49,7 +49,7 @@
                     </div>
                     <div>
                         <h2 class="uk-h3 uk-text-bold">Dopo il PARTO</h2>
-                        <img class="" :data-src="imageResize('/f/46475/1688x1125/114ae32fce/dopo-il-parto1.jpg', '350x0')" alt="Doula" uk-img/>
+                        <img class="" :data-src="imageResize('/f/46475/1688x1125/114ae32fce/dopo-il-parto1.jpg', '340x0')" alt="Doula" uk-img/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
                         <dl class="uk-description-list">
                             <dt>Allattamento al seno</dt>
@@ -173,9 +173,8 @@
             </div>
         </div>
 
-        <div class="uk-cover-container">
-            <canvas width="400" height="350"></canvas>
-            <img :src="immagine_testata" alt="" uk-cover>
+        <div class="uk-cover-container uk-height-max-medium">
+            <img :data-src="imageResize(immagine_testata, '1500x500')" alt="" uk-img>
         </div>
         <div class="uk-section uk-section-muted uk-padding">
             <div class="uk-container">
