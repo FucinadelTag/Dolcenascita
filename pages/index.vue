@@ -10,31 +10,26 @@
         </div>
         <div class="uk-section uk-section-muted uk-padding">
             <div class="uk-container">
-                <div class="uk-grid uk-grid-small uk-grid-match uk-child-width-expand@s" uk-grid>
+                <div class="uk-grid uk-grid-match uk-child-width-expand@s uk-grid-divider" uk-grid>
                     <div>
-                        <div class="uk-card uk-card-small uk-card-default uk-card-body">
-                            <h3 class="uk-card-title uk-text-bold">Prima del PARTO</h3>
-                            <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
+                        <h3 class="uk-card-title uk-text-bold">Prima del PARTO</h3>
+                        <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
-                            <dl class="uk-description-list">
-                                <dt>Consigli pratici</dt>
-                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
-                            </dl>
-                            <dl class="uk-description-list">
-                                <dt>Ascolto e vicinanza</dt>
-                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
-                            </dl>
-                            <dl class="uk-description-list">
-                                <dt>Preparazione al parto</dt>
-                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
-                            </dl>
-
-
-                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                        <dl class="uk-description-list">
+                            <dt>Consigli pratici</dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                        </dl>
+                        <dl class="uk-description-list">
+                            <dt>Ascolto e vicinanza</dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                        </dl>
+                        <dl class="uk-description-list">
+                            <dt>Preparazione al parto</dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                        </dl>
                     </div>
                     <div>
-                        <div class="uk-card uk-card-small uk-card-default uk-card-body">
                             <h3 class="uk-card-title uk-text-bold">Durante il PARTO</h3>
                             <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
@@ -50,10 +45,8 @@
                                 <dt>Ti da una mano</dt>
                                 <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
                             </dl>
-                        </div>
                     </div>
                     <div>
-                        <div class="uk-card uk-card-small uk-card-default uk-card-body">
                             <h3 class="uk-card-title uk-text-bold">Dopo il PARTO</h3>
                             <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
@@ -69,7 +62,6 @@
                                 <dt>Ascolto e vicinanza</dt>
                                 <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
                             </dl>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -179,7 +171,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="uk-cover-container">
             <canvas width="400" height="350"></canvas>
             <img :src="immagine_testata" alt="" uk-cover>

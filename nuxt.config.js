@@ -62,6 +62,7 @@ module.exports = {
         }
     },
     performance: {
-        gzip: true
-    }
+        gzip: false
+    },
+    dev: false
 }
