@@ -92,7 +92,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/dolcenascita/production/1532528756232-2018-07-25T14:25:56.232Z/dolcenascita.zip"
+          "S3Key": "serverless/dolcenascita/production/1532594298670-2018-07-26T08:38:18.670Z/dolcenascita.zip"
         },
         "FunctionName": "dolcenascita-production-nuxt",
         "Handler": "handler.nuxt",
@@ -111,14 +111,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "NuxtLambdaVersionIlANcOwDMI0M1LP084C7Mc4dTMGtaYbsqmiytWPJY": {
+    "NuxtLambdaVersionyzIojpZbWDD1SDAmHvrQyPg9hBVcTtDjYBdydovlhkU": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "NuxtLambdaFunction"
         },
-        "CodeSha256": "f+9aTsyoWQt+JI/n77o2UoMDgucYV44ZT5AHVNcpzbY="
+        "CodeSha256": "1W94fknE4f34RK31ou/mbxja5cUmZAl4W/XixBqY5YM="
       }
     },
     "NuxtEventsRuleSchedule1": {
@@ -283,7 +283,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1532528756624": {
+    "ApiGatewayDeployment1532594299144": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -353,7 +353,7 @@
     "NuxtLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "NuxtLambdaVersionIlANcOwDMI0M1LP084C7Mc4dTMGtaYbsqmiytWPJY"
+        "Ref": "NuxtLambdaVersionyzIojpZbWDD1SDAmHvrQyPg9hBVcTtDjYBdydovlhkU"
       }
     },
     "ServiceEndpoint": {

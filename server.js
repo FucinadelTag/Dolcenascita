@@ -20,5 +20,6 @@ app.use((req, res, next) => {
     nuxt.render(req, res, next)
 })
 
+//console.log(path.join(__dirname, '.nuxt', 'dist'));
 
 module.exports = app

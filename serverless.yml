@@ -17,6 +17,7 @@ functions:
 
 plugins:
   - serverless-apigw-binary
+  - serverless-offline
 
 custom:
   apigwBinary:

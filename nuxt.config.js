@@ -14,6 +14,13 @@ module.exports = {
             { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700' },
         ]
     },
+    render: {
+        bundleRenderer: {
+            shouldPreload: (file, type) => {
+                return ['script', 'style', 'font'].includes(type)
+            }
+        }
+    },
     /*
     ** Customize the progress bar color
     */
@@ -25,8 +32,12 @@ module.exports = {
         ],
         ['storyblok-nuxt', {
           accessToken: 'eP12iCub8i9xBo2f36h9Egtt',
-          cacheProvider: 'memory'
+          cacheProvider: 'memory',
+          timeout: 5000
         }]
+    ],
+    serverMiddleware: [
+        'redirect-ssl',
     ],
     css: [
         {src: '~/assets/scss/main.scss', lang: 'scss'}
@@ -39,12 +50,18 @@ module.exports = {
     router: {
         middleware: ['getSettings']
     },
-        /*
-        ** Build configuration
-        */
+    /*
+    ** Build configuration
+    */
     build: {
-            /*
-            ** Run ESLint on save
-            */
+        vendor: ['axios'],
+        postcss: {
+            plugins: {
+                'postcss-custom-properties': false,
+            }
+        }
+    },
+    performance: {
+        gzip: true
     }
 }
