@@ -179,6 +179,7 @@
                 </div>
             </div>
         </div>
+        
         <div class="uk-cover-container">
             <canvas width="400" height="350"></canvas>
             <img :src="immagine_testata" alt="" uk-cover>
