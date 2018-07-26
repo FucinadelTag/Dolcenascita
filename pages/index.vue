@@ -8,11 +8,12 @@
                 <h1 class="uk-heading-primary  uk-text-center">Una <span class="uk-text-bold text-rosso">Doula</span> può aiutarti</h1>
             </div>
         </div>
-        <div class="uk-section uk-section-muted uk-padding">
+        <div class="uk-section uk-section-default uk-padding">
             <div class="uk-container">
                 <div class="uk-grid uk-grid-match uk-child-width-expand@s uk-grid-divider" uk-grid>
                     <div>
-                        <h3 class="uk-card-title uk-text-bold">Prima del PARTO</h3>
+                        <h2 class="uk-h3 uk-text-bold">Prima del PARTO</h2>
+                        <hr>
                         <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
@@ -30,38 +31,40 @@
                         </dl>
                     </div>
                     <div>
-                            <h3 class="uk-card-title uk-text-bold">Durante il PARTO</h3>
-                            <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
-                            <dl class="uk-description-list">
-                                <dt>Ti accompagna</dt>
-                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
-                            </dl>
-                            <dl class="uk-description-list">
-                                <dt>Sta viciono al tuo compagno</dt>
-                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
-                            </dl>
-                            <dl class="uk-description-list">
-                                <dt>Ti da una mano</dt>
-                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
-                            </dl>
+                        <h2 class="uk-h3 uk-text-bold">Durante il PARTO</h2>
+                        <hr>
+                        <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                        <dl class="uk-description-list">
+                            <dt>Ti accompagna</dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                        </dl>
+                        <dl class="uk-description-list">
+                            <dt>Sta viciono al tuo compagno</dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                        </dl>
+                        <dl class="uk-description-list">
+                            <dt>Ti da una mano</dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                        </dl>
                     </div>
                     <div>
-                            <h3 class="uk-card-title uk-text-bold">Dopo il PARTO</h3>
-                            <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
-                            <dl class="uk-description-list">
-                                <dt>Allattamento al seno</dt>
-                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
-                            </dl>
-                            <dl class="uk-description-list">
-                                <dt>Aiuto nei primi mesi</dt>
-                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
-                            </dl>
-                            <dl class="uk-description-list">
-                                <dt>Ascolto e vicinanza</dt>
-                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
-                            </dl>
+                        <h2 class="uk-h3 uk-text-bold">Dopo il PARTO</h2>
+                        <hr>
+                        <img class="" :data-src="imageResize('/f/46475/1659x830/a0cce142f8/mamma-e-bimbo.jpg', '350x0')" alt="Doula" uk-img/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                        <dl class="uk-description-list">
+                            <dt>Allattamento al seno</dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                        </dl>
+                        <dl class="uk-description-list">
+                            <dt>Aiuto nei primi mesi</dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                        </dl>
+                        <dl class="uk-description-list">
+                            <dt>Ascolto e vicinanza</dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                        </dl>
                     </div>
                 </div>
             </div>
@@ -254,6 +257,9 @@ export default {
         .uk-h2 {
             line-height: 2;
         }
+    }
+    dt {
+        font-weight: bold;
     }
 }
 
