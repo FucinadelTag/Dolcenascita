@@ -2,7 +2,7 @@
     <section class="home">
         <div class="uk-cover-container">
             <canvas width="500" height="500"></canvas>
-            <img :src="imageResize(immagine_testata, '1500x500')" alt="" uk-cover>
+            <img :src="imageResize(immagine_testata, '2000x500')" alt="" uk-cover>
             <div class="uk-overlay uk-overlay-default uk-position-center">
                 <h2 class="uk-h2 uk-text-center">Stai per diventare mamma o lo sei appena diventata?</h2>
                 <h1 class="uk-heading-primary  uk-text-center">Una <span class="uk-text-bold text-rosso">Doula</span> può aiutarti</h1>
