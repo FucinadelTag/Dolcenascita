@@ -10,7 +10,6 @@
         </div>
         <div class="uk-section uk-section-default uk-padding">
             <div class="uk-container">
-                <hr>
                 <div class="uk-grid uk-grid-match uk-child-width-expand@s uk-grid-small" uk-grid>
                     <div>
                         <div class="uk-card uk-card-default uk-card-body">
