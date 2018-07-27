@@ -11,59 +11,65 @@
         <div class="uk-section uk-section-default uk-padding">
             <div class="uk-container">
                 <hr>
-                <div class="uk-grid uk-grid-match uk-child-width-expand@s uk-grid-divider" uk-grid>
+                <div class="uk-grid uk-grid-match uk-child-width-expand@s uk-grid-small" uk-grid>
                     <div>
-                        <h2 class="uk-h3 uk-text-bold">Prima del PARTO</h2>
-                        <img class="" :data-src="imageResize('/f/46475/1600x1027/8994c5caf0/prima-del-parto.jpg', '340x0')" alt="Doula" uk-img/>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h2 class="uk-card-title uk-text-bold">Prima del PARTO</h2>
+                            <img class="" :data-src="imageResize('/f/46475/1600x1027/8994c5caf0/prima-del-parto.jpg', '340x0')" alt="Doula" uk-img/>
 
-                        <p>La doula ti aiuta a diventare madre, percorrendo insieme i primi passi di questo meraviglioso cammino</p>
-                        <dl class="uk-description-list">
-                            <dt>Consigli pratici</dt>
-                            <dd>La doula sarà il tuo punto di riferimento e guida per il resto della gravidanza, saprà darti preziosi consigli per affrontare al meglio l’arrivo del tuo bimbo.</dd>
-                        </dl>
-                        <dl class="uk-description-list">
-                            <dt>Ascolto e vicinanza</dt>
-                            <dd>La doula è una voce che ti ascolta e alla quale puoi confidare le tue preoccupazioni e paure, le tue gioie e aspettative.</dd>
-                        </dl>
-                        <dl class="uk-description-list">
-                            <dt>Preparazione al parto</dt>
-                            <dd>Una doula ti preparerà al parto, permettendoti di affrontarlo in modo sereno e positivo. Insieme potrete praticare le tecniche di respirazione e le posizioni da assumere durante il travaglio.</dd>
-                        </dl>
+                            <p>La doula ti aiuta a diventare madre, percorrendo insieme i primi passi di questo meraviglioso cammino</p>
+                            <dl class="uk-description-list">
+                                <dt>Consigli pratici</dt>
+                                <dd>La doula sarà il tuo punto di riferimento e guida per il resto della gravidanza, saprà darti preziosi consigli per affrontare al meglio l’arrivo del tuo bimbo.</dd>
+                            </dl>
+                            <dl class="uk-description-list">
+                                <dt>Ascolto e vicinanza</dt>
+                                <dd>La doula è una voce che ti ascolta e alla quale puoi confidare le tue preoccupazioni e paure, le tue gioie e aspettative.</dd>
+                            </dl>
+                            <dl class="uk-description-list">
+                                <dt>Preparazione al parto</dt>
+                                <dd>Una doula ti preparerà al parto, permettendoti di affrontarlo in modo sereno e positivo. Insieme potrete praticare le tecniche di respirazione e le posizioni da assumere durante il travaglio.</dd>
+                            </dl>
+                        </div>
                     </div>
                     <div>
-                        <h2 class="uk-h3 uk-text-bold">Durante il PARTO</h2>
-                        <img class="" :data-src="imageResize('/f/46475/2121x1414/48e3e9d795/durante-in-parto.jpg', '340x0')" alt="Doula" uk-img/>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h2 class="uk-card-title uk-text-bold">Durante il PARTO</h2>
+                            <img class="" :data-src="imageResize('/f/46475/2121x1414/48e3e9d795/durante-in-parto.jpg', '340x0')" alt="Doula" uk-img/>
 
-                        <p>La doula ti assiste durante il travaglio e il parto, fornendoti un continuo supporto emotivo e pratico.</p>
-                        <dl class="uk-description-list">
-                            <dt>Ti accompagna</dt>
-                            <dd>Avere una doula al tuo fianco ti farà affrontare questo grande giorno con più consapevolezza e serenità.</dd>
-                        </dl>
-                        <dl class="uk-description-list">
-                            <dt>Sta viciono a te a al tuo compagno</dt>
-                            <dd>Il parto è un momento imprevedibile, ma la doula risponderà in ogni momento alle vostre domande per capire ciò che sta accadendo.</dd>
-                        </dl>
-                        <dl class="uk-description-list">
-                            <dt>Ti da una mano</dt>
-                            <dd>La doula può darti suggerimenti sulle posizioni da assumere durante il travaglio, ti aiuta a concentrarti sulla respirazione durante le contrazioni più dolorose, allevia il dolore con massaggi mirati.</dd>
-                        </dl>
+                            <p>La doula ti assiste durante il travaglio e il parto, fornendoti un continuo supporto emotivo e pratico.</p>
+                            <dl class="uk-description-list">
+                                <dt>Ti accompagna</dt>
+                                <dd>Avere una doula al tuo fianco ti farà affrontare questo grande giorno con più consapevolezza e serenità.</dd>
+                            </dl>
+                            <dl class="uk-description-list">
+                                <dt>Sta viciono a te a al tuo compagno</dt>
+                                <dd>Il parto è un momento imprevedibile, ma la doula risponderà in ogni momento alle vostre domande per capire ciò che sta accadendo.</dd>
+                            </dl>
+                            <dl class="uk-description-list">
+                                <dt>Ti da una mano</dt>
+                                <dd>La doula può darti suggerimenti sulle posizioni da assumere durante il travaglio, ti aiuta a concentrarti sulla respirazione durante le contrazioni più dolorose, allevia il dolore con massaggi mirati.</dd>
+                            </dl>
+                        </div>
                     </div>
                     <div>
-                        <h2 class="uk-h3 uk-text-bold">Dopo il PARTO</h2>
-                        <img class="" :data-src="imageResize('/f/46475/1688x1125/114ae32fce/dopo-il-parto1.jpg', '340x0')" alt="Doula" uk-img/>
-                        <p>Dopo la nascita, la doula ti aiuterà ad avviare l’allattamento e a incoraggiare il legame tra il nuovo arrivato e il resto della famiglia.</p>
-                        <dl class="uk-description-list">
-                            <dt>Allattamento al seno</dt>
-                            <dd>L’allattamento al seno può a volte essere difficoltoso e molte madri rinunciano dopo poche settimane. La doula ti assisterà in ogni fase, assicurandoti che l’allattamento sia ben avviato, se lo vorrai.</dd>
-                        </dl>
-                        <dl class="uk-description-list">
-                            <dt>Aiuto nei primi mesi</dt>
-                            <dd>La doula ti aiuterà a capire le necessità del nuovo nato, a riconoscere i suoi pianti e ad assisterlo, fornendoti un appoggio reale.</dd>
-                        </dl>
-                        <dl class="uk-description-list">
-                            <dt>Ascolto e vicinanza</dt>
-                            <dd>I primi mesi sono i più difficili, soprattutto per le mamme. La doula ti fornirà un sostegno emotivo e fisico, sarà un aiuto su cui potrai contare.</dd>
-                        </dl>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <h2 class="uk-h3 uk-text-bold">Dopo il PARTO</h2>
+                            <img class="" :data-src="imageResize('/f/46475/1688x1125/114ae32fce/dopo-il-parto1.jpg', '340x0')" alt="Doula" uk-img/>
+                            <p>Dopo la nascita, la doula ti aiuterà ad avviare l’allattamento e a incoraggiare il legame tra il nuovo arrivato e il resto della famiglia.</p>
+                            <dl class="uk-description-list">
+                                <dt>Allattamento al seno</dt>
+                                <dd>L’allattamento al seno può a volte essere difficoltoso e molte madri rinunciano dopo poche settimane. La doula ti assisterà in ogni fase, assicurandoti che l’allattamento sia ben avviato, se lo vorrai.</dd>
+                            </dl>
+                            <dl class="uk-description-list">
+                                <dt>Aiuto nei primi mesi</dt>
+                                <dd>La doula ti aiuterà a capire le necessità del nuovo nato, a riconoscere i suoi pianti e ad assisterlo, fornendoti un appoggio reale.</dd>
+                            </dl>
+                            <dl class="uk-description-list">
+                                <dt>Ascolto e vicinanza</dt>
+                                <dd>I primi mesi sono i più difficili, soprattutto per le mamme. La doula ti fornirà un sostegno emotivo e fisico, sarà un aiuto su cui potrai contare.</dd>
+                            </dl>
+                        </div>
                     </div>
                 </div>
             </div>
