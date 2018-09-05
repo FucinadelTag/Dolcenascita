@@ -13,21 +13,21 @@
                 <div class="uk-grid uk-grid-match uk-child-width-expand@s uk-grid-small" uk-grid>
                     <div>
                         <div class="uk-card uk-card-default uk-card-body">
-                            <h2 class="uk-card-title uk-text-bold">Prima del PARTO</h2>
+                            <h2 class="uk-card-title uk-text-bold">In GRAVIDANZA</h2>
                             <img class="" :data-src="imageResize('/f/46475/1600x1027/8994c5caf0/prima-del-parto.jpg', '340x0')" alt="Doula" uk-img/>
 
-                            <p><i>La doula ti aiuta a diventare madre, percorrendo insieme i primi passi di questo meraviglioso cammino</i></p>
+                            <p><i>La doula sarà il tuo punto di riferimento per il resto della gravidanza, saprà darti preziosi consigli per affrontare al meglio l’arrivo del tuo bimbo.</i></p>
                             <dl class="uk-description-list">
-                                <dt>Consigli pratici</dt>
-                                <dd>La doula sarà il tuo punto di riferimento e guida per il resto della gravidanza, saprà darti preziosi consigli per affrontare al meglio l’arrivo del tuo bimbo.</dd>
+                                <dt>ASCOLTO</dt>
+                                <dd>La doula ti ascolta e ti sostiene emotivamente nelle decisioni da prendere e nelle piccole e grandi crisi. Costruisce una relazione empatica e di fiducia, che faccia sentire tutti i protagonisti dell'evento nascita a proprio agio.</dd>
                             </dl>
                             <dl class="uk-description-list">
-                                <dt>Ascolto e vicinanza</dt>
-                                <dd>La doula è una voce che ti ascolta e alla quale puoi confidare le tue preoccupazioni e paure, le tue gioie e aspettative.</dd>
+                                <dt>RICERCA DI INFORMAZIONI</dt>
+                                <dd>Ti aiuta a cercare informazioni basate su evidenze scientifiche, ti aiuta nella compilazione del piano nascita, può informarti sulle domande del consenso informato e su come comunicare con il personale sanitario per sostenere le tue richieste.</dd>
                             </dl>
                             <dl class="uk-description-list">
-                                <dt>Preparazione al parto</dt>
-                                <dd>Una doula ti preparerà al parto, permettendoti di affrontarlo in modo sereno e positivo. Insieme potrete praticare le tecniche di respirazione e le posizioni da assumere durante il travaglio.</dd>
+                                <dt>VICINANZA</dt>
+                                <dd>Può accompagnarti alle visite ginecologiche e agli esami significativi, come l’amniocentesi. Può aiutarti con i figli maggiori negli ultimi mesi di gravidanza e organizzare il rientro a casa quando ci sono figli più grandi.</dd>
                             </dl>
                         </div>
                     </div>
@@ -36,37 +36,37 @@
                             <h2 class="uk-card-title uk-text-bold">Durante il PARTO</h2>
                             <img class="" :data-src="imageResize('/f/46475/2121x1414/48e3e9d795/durante-in-parto.jpg', '340x0')" alt="Doula" uk-img/>
 
-                            <p><i>La doula ti assiste durante il travaglio e il parto, fornendoti un continuo supporto emotivo e pratico.</i></p>
+                            <p><i>Durante il travaglio e il parto la doula sostiene la coppia emotivamente e fisicamente, sia in ospedale che a domicilio con la presenza di un’ostetrica.</i></p>
                             <dl class="uk-description-list">
-                                <dt>Ti accompagna</dt>
-                                <dd>Avere una doula al tuo fianco ti farà affrontare questo grande giorno con più consapevolezza e serenità.</dd>
+                                <dt>STA VICINO A TE E AL TUO COMPAGNO</dt>
+                                <dd>La doula è una presenza continuativa con cui avete stabilito una relazione intima e confidenziale. Vi incoraggia, rassicura e conforta durante tutto il momento del travaglio. Può ricordarvi i vostri obiettivi e come raggiungerli.</dd>
                             </dl>
                             <dl class="uk-description-list">
-                                <dt>Sta viciono a te a al tuo compagno</dt>
-                                <dd>Il parto è un momento imprevedibile, ma la doula risponderà in ogni momento alle vostre domande per capire ciò che sta accadendo.</dd>
+                                <dt>TI DA UNA MANO</dt>
+                                <dd>Si prende cura dei bisogni fisici della madre, come bere, mangiare, svuotare la vescica, la incoraggia a mantenere una posizione verticale ed essere protagonista del proprio parto, toccare i confini delle proprie possibilità e oltrepassarli.</dd>
                             </dl>
                             <dl class="uk-description-list">
-                                <dt>Ti da una mano</dt>
-                                <dd>La doula può darti suggerimenti sulle posizioni da assumere durante il travaglio, ti aiuta a concentrarti sulla respirazione durante le contrazioni più dolorose, allevia il dolore con massaggi mirati.</dd>
+                                <dt>TI ACCOMPAGNA</dt>
+                                <dd>Una Doula può fare massaggi specifici, alleggerire l'atmosfera con humour, proteggere l'intimità del parto, giocare con la donna senza interferire con il lavoro del travaglio, aiutare a rendere il parto una gioia e una festa.</dd>
                             </dl>
                         </div>
                     </div>
                     <div>
                         <div class="uk-card uk-card-default uk-card-body">
-                            <h2 class="uk-h3 uk-text-bold">Dopo il PARTO</h2>
+                            <h2 class="uk-h3 uk-text-bold">Dopo la NASCITA</h2>
                             <img class="" :data-src="imageResize('/f/46475/1688x1125/114ae32fce/dopo-il-parto1.jpg', '340x0')" alt="Doula" uk-img/>
-                            <p><i>Dopo la nascita, la doula ti aiuterà ad avviare l’allattamento e a incoraggiare il legame tra il nuovo arrivato e il resto della famiglia.</i></p>
+                            <p><i>Dopo la nascita aiuta a elaborare l'esperienza del parto. Sarà un riferimento per il puerperio (primi quaranta giorni) e per tutto il primo anno di vita.</i></p>
                             <dl class="uk-description-list">
-                                <dt>Allattamento al seno</dt>
-                                <dd>L’allattamento al seno può a volte essere difficoltoso e molte madri rinunciano dopo poche settimane. La doula ti assisterà in ogni fase, assicurandoti che l’allattamento sia ben avviato, se lo vorrai.</dd>
+                                <dt>AIUTO NEI PRIMI MESI</dt>
+                                <dd>La doula vi aiuta nella "riorganizzazione della vita" dopo la nascita del bimbo. I ritmi sonno-veglia vengono spesso stravolti dal nuovo/a arrivato/a. Una Doula può aiutare la coppia a trovare una propria dimensione nel cambiamento.</dd>
                             </dl>
                             <dl class="uk-description-list">
-                                <dt>Aiuto nei primi mesi</dt>
-                                <dd>La doula ti aiuterà a capire le necessità del nuovo nato, a riconoscere i suoi pianti e ad assisterlo, fornendoti un appoggio reale.</dd>
+                                <dt>ALLATTAMENTO AL SENO</dt>
+                                <dd>Sostiene e incoraggia la madre nell'allattamento al seno, nel rispetto delle sue scelte. Se necessario, la doula può indirizzare una madre ai professionisti competenti dell'allattamento in caso di problemi che esulano dalle sue competenze.</dd>
                             </dl>
                             <dl class="uk-description-list">
-                                <dt>Ascolto e vicinanza</dt>
-                                <dd>I primi mesi sono i più difficili, soprattutto per le mamme. La doula ti fornirà un sostegno emotivo e fisico, sarà un aiuto su cui potrai contare.</dd>
+                                <dt>ASCOLTO E VICINANZA</dt>
+                                <dd>Sostiene la coppia nel sentirsi competente nel risolvere i problemi di accudimento. Si può occupare anche della casa, accompagnare a scuola i figli maggiori e occuparsi di tutto quello che può alleviare la fatica dei genitori.</dd>
                             </dl>
                         </div>
                     </div>
@@ -82,12 +82,18 @@
                 <hr>
                     <div class="uk-grid uk-grid-small uk-child-width-expand@s" uk-grid>
                         <div>
-                            <p class="uk-text-lead">
+                            <!-- <p class="uk-text-lead">
                                 La parola doula deriva dal greco e significa <br> <i>“servitrice delle donne”</i>.
 
+                            </p> -->
+                            <p class="">
+                                La Doula è una <strong>figura professionale</strong> che si occupa del sostegno emotivo e del benessere della donna e della famiglia dalla gravidanza fino al primo anno di vita del bambino.
                             </p>
-                            <p class="uk-text-lead">
-                                Una doula fa proprio questo: si prende cura della madre, sostenendola emotivamente e fisicamente dalla gravidanza fino ai primi mesi dopo la nascita. La doula aiuta le donne a vivere in modo sereno e memorabile uno dei momenti più delicati, impegnativi e straordinari della vita.
+                            <p>
+                                È una donna che – forte della sua esperienza personale e della sua formazione – <strong>offre un sostegno su misura, intimo e confidenziale</strong>, nel pieno rispetto delle scelte delle persone che assiste.
+                            </p>
+                            <p>
+                                Offre ascolto, informazioni, orientamento e accudimento pratico. Un buon modo di definire l’attività della Doula è che <strong>“fa da madre alla madre”</strong>.
                             </p>
 
 
