@@ -54,7 +54,7 @@
                     <div>
                         <div class="uk-card uk-card-default uk-card-body">
                             <h2 class="uk-h3 uk-text-bold">Dopo la NASCITA</h2>
-                            <img class="" :data-src="imageResize('/f/46475/1688x1125/114ae32fce/dopo-il-parto1.jpg', '340x0')" alt="Doula" uk-img/>
+                            <img class="" :data-src="imageResize('/f/46475/1024x700/e88f191792/foto2.jpg', '340x0')" alt="Doula" uk-img/>
                             <p><i>Dopo la nascita aiuta a elaborare l'esperienza del parto. Sarà un riferimento per il puerperio (primi quaranta giorni) e per tutto il primo anno di vita.</i></p>
                             <dl class="uk-description-list">
                                 <dt>AIUTO NEI PRIMI MESI</dt>
