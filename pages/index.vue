@@ -116,7 +116,7 @@
                             <h3 class="uk-h3 uk-text-bold"><span uk-icon="phone"></span> Chiamaci o scrivici</h3>
 
                             <p>
-                                Chiama il numero verde <span class="uk-dark"><a href="tel:80080008000">800 800 800</a></span> oppure <a href="#form">scrivici</a>. Senza alcun impegno potrai parlare con una Doula trovando una risposta a tutte le tue domande.
+                                Chiama il nostro numero <span class="uk-dark"><a href="tel:3392713095">339 271 3095</a></span> oppure <a href="#form">scrivici</a>. Senza alcun impegno potrai parlare con una Doula trovando una risposta a tutte le tue domande.
                             </p>
 
                         </div>
@@ -147,37 +147,37 @@
                     <div>
                         <h3 id="form" class="uk-h3 uk-text-bold"><span uk-icon="mail"></span> Invia un messaggio</h3>
 
-                        <form>
+                        <form v-on:submit.prevent ="submitForm($event)">
                             <fieldset class="uk-fieldset">
                                 <div class="uk-margin">
                                     <label class="uk-form-label" for="form-stacked-text">Email</label>
-                                    <input class="uk-input" type="text" placeholder="Inserisci il tuo indirizzo email" required>
+                                    <input class="uk-input" v-model="email" name="email" type="text" placeholder="Inserisci il tuo indirizzo email" required>
                                 </div>
 
 
 
                                 <div class="uk-margin">
                                     <label class="uk-form-label" for="form-stacked-text">Messaggio</label>
-                                    <textarea class="uk-textarea" rows="5" placeholder="Raccontaci qualcosa di te e di cosa hai bisogno"></textarea>
+                                    <textarea class="uk-textarea" v-model="message" name="message" rows="5" placeholder="Raccontaci qualcosa di te e di cosa hai bisogno"></textarea>
                                 </div>
 
 
                             </fieldset>
+                            <button type="submit" class="uk-button uk-button-default">Invia</button>
                         </form>
 
                     </div>
                     <div>
-                        <h3 class="uk-h3 uk-text-bold"><span uk-icon="receiver"></span> Chiama il Numero Verde</h3>
+                        <h3 class="uk-h3 uk-text-bold"><span uk-icon="receiver"></span> Chiama una Doula Ora</h3>
 
-                            <a href="tel:80080008000" class="uk-link-heading">
+                            <a href="tel:3392713095" class="uk-link-heading">
                                 <span class="uk-h1 text-verde uk-margin-left">
-                                    800 800 800
+                                    339 271 3095
                                 </span>
 
                             </a>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Ti risponderà una Doula alla quale potrai fare le tue domande<br><strong>senza alcun impegno</strong>.
                         </p>
 
                     </div>
@@ -201,15 +201,15 @@
                         <h3 class="uk-h3 uk-text-bold"><span uk-icon="info"></span> Chi Siamo</h3>
 
                         <p>
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Siamo un gruppo di doule in costante formazione e ricerca .Dopo aver sperimentato la nostra esperienza di maternità, averne scoperto luci e ombre il nostro lavoro è quello di stare accanto alle madri  nel modo più adatto a ciascuna di loro.
                         </p>
 
                     </div>
                     <div class="uk-text-center">
-                        <h3 class="uk-h3 uk-text-bold"><span uk-icon="info"></span> Solo doule Certificate</h3>
+                        <h3 class="uk-h3 uk-text-bold"><span uk-icon="info"></span> Solo doule Formate</h3>
 
                         <p>
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            La scuola delle doule getta le basi per iniziare il nostro lavoro, ma ogni doula approfondisce la propria formazione con aggiornamenti costanti, passione per la ricerca e la conoscenza per ricoprire in maniera etica e responsabile il suo ruolo.
                         </p>
 
                     </div>
@@ -242,17 +242,53 @@
 <script>
 import {resize} from '~/tools/manageImages.js'
 import callToAction from '~/components/callToAction.vue'
+import axios from 'axios'
 
 export default {
     data: function () {
         return {
             immagine_testata: this.$store.getters.immagineTestata,
             imageResize: resize,
+            email:'',
+            message:''
         }
     },
     components: {
         callToAction,
     },
+    methods: {
+        submitForm: function (e) {
+            //let item = prepareItem (this.prodotto);
+            let actionUrl = "https://hooks.zapier.com/hooks/catch/178342/q0sbf0/";
+
+            console.log(this.email);
+
+            // const store = this.$store;
+            // var self = this;
+            //
+            axios.post(actionUrl, {
+                email: this.email,
+                message: this.message,
+            }, {
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                }
+            })
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+            //
+            // ga('send', {
+            //     hitType: 'event',
+            //     eventCategory: 'Cart',
+            //     eventAction: 'add'
+            // });
+
+        }
+    }
 
 
 }
