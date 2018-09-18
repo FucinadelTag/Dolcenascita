@@ -145,19 +145,19 @@
             <div class="uk-container">
                 <div class="uk-grid uk-grid-small uk-child-width-1-2@m uk-grid-divider" uk-grid>
                     <div>
-                        <h3 id="form" class="uk-h3 uk-text-bold"><span uk-icon="mail"></span> Invia un messaggio</h3>
+                        <h3 id="form" class="uk-h3 uk-text-bold"><span uk-icon="mail"></span> Invia una richiesta</h3>
 
                         <form v-on:submit.prevent ="submitForm($event)">
                             <fieldset class="uk-fieldset">
                                 <div class="uk-margin">
                                     <label class="uk-form-label" for="form-stacked-text">Email</label>
-                                    <input class="uk-input" v-model="email" name="email" type="text" placeholder="Inserisci il tuo indirizzo email" required>
+                                    <input class="uk-input" v-model="email" name="email" type="email" placeholder="Inserisci il tuo indirizzo email" required>
                                 </div>
 
 
 
                                 <div class="uk-margin">
-                                    <label class="uk-form-label" for="form-stacked-text">Messaggio</label>
+                                    <label class="uk-form-label" for="form-stacked-text">Richiesta</label>
                                     <textarea class="uk-textarea" v-model="message" name="message" rows="5" placeholder="Raccontaci qualcosa di te e di cosa hai bisogno"></textarea>
                                 </div>
 
@@ -276,6 +276,7 @@ export default {
             })
             .then(function (response) {
                 console.log(response);
+                window.location.href = '/grazie';
             })
             .catch(function (error) {
                 console.log(error);
