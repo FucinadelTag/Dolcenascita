@@ -40,6 +40,7 @@
     "storyblok-nuxt": "0.0.6",
     "uikit": "^3.0.0-rc.10",
     "uuid": "^3.3.2",
+    "vue-analytics": "^5.16.0",
     "vue-async-computed": "^3.3.1",
     "vue-cookie-law": "^1.6.0",
     "vue-disqus": "^2.0.5",

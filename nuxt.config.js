@@ -45,6 +45,7 @@ module.exports = {
     plugins: [
         { src: '~/plugins/uikit.js', ssr: false },
         { src: '~/plugins/iubenda.js', ssr: false },
+        { src: '~/plugins/analitycs.js', ssr: false },
 
     ],
     router: {
