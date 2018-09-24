@@ -132,7 +132,7 @@
                             <h3 class="uk-h3 uk-text-bold"><span uk-icon="heart"></span> Incomincia il tuo percorso</h3>
 
                             <p>
-                                Se lo riterrai opportuno potrai incomciniare il tuo percorso con la Doula acqustando un pacchetto da 10, 20 o 30 ore.
+                                Se lo riterrai opportuno potrai incominciare il tuo percorso con la Doula acqustando un pacchetto da 10, 20 o 30 ore.
                             </p>
 
                         </div>
